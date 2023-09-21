@@ -1,0 +1,49 @@
+html,
+body,
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+h1{
+    font-size: xx-large;
+    text-align: center;
+    padding: 50;
+}
+.parent {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+   
+    
+    
+
+}
+.child {
+    border: 1px solid red;
+    width: 28%;
+    
+    
+    
+    
+
+}
+.child-1{
+    border: 3px solid yellow;
+    
+    
+    
+
+}
+.child-2{
+    border: 3px solid green;
+    
+    
+
+}
+.child-3{
+ border: 3px solid blue;
+ 
+}
