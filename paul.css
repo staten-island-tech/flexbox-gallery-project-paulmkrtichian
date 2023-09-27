@@ -1,0 +1,93 @@
+html{
+    background-image: url(media/soccer-field-background-1500-x-918-taf6j6rbhytcqt64.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+width: 100 vw;
+}
+
+html,
+body,
+* {
+padding: 20px;
+margin: 10;
+box-sizing: border-box;
+font-size: 62.5%;
+}
+.parent{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+    height: 30vh;
+}
+h1{
+    font-size: xx-large;
+    text-align: center;
+    padding: 50;
+    color: white;
+}
+.child {
+width: 20%;
+height: 30vh;
+
+}
+.child-1{
+    border: 3px solid green;
+    background-color: white;
+    
+    
+    }
+    .child-2{
+    border: 3px solid yellow ;
+    background-color: white;
+
+    }
+    .child-3{
+    border: 3px solid red;
+background-color: white;
+    }
+    .child-4{
+     border: 3px solid blue ;   
+background-color: white;
+    }
+.child-5{
+    border: 3px solid green;
+  background-color: white;  
+    }
+    .child-6{
+    border: 3px solid yellow ;
+   background-color: white; 
+    }
+    .child-7{
+    border: 3px solid red;
+    background-color: white;
+    }
+    .child-8{
+     border: 3px solid blue ;  
+      background-color: white;
+    }
+
+    .child-9{
+        border: 3px solid green;
+        background-color: white;
+        
+        }
+        .child-10{
+        border: 3px solid yellow ;
+        background-color: white;
+        }
+        .child-11{
+        border: 3px solid red;
+        background-color: white;
+        }
+        .child-12{
+         border: 3px solid blue ; 
+         background-color: white;  
+        }
+
+.image1{
+    width: 100%;
+    border: 3px solid black;
+    height: 100%;
+    align-items: center;
+}
