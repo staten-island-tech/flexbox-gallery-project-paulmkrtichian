@@ -1,116 +1,137 @@
-
-
-html{
-    background-image: url(media/soccer-field-background-1500-x-918-taf6j6rbhytcqt64.jpeg);
-background-size: cover;
-background-repeat: no-repeat;
-width: 100 vw;
-font-family: 'Oswald', sans-serif;
+html {
+  background-image: url(media/soccer-field-background-1500-x-918-taf6j6rbhytcqt64.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100 vw;
+  font-family: "Oswald", sans-serif;
 }
-
 
 html,
 body,
 * {
-padding: 40px;
-margin: 10;
-box-sizing: border-box;
-font-size: 62.5%;
+  padding: 40px;
+  margin: 10;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
-.container{
-    font-size: 30px;
-    display: flex;
-    justify-content: space-around;
-    
-    height: 600px;
+.container {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  height: 600px;
 }
-h1{
-    font-size: xx-large;
-    text-align: center;
-    padding: 10;
-    color: white;
+h1 {
+  font-size: xx-large;
+  text-align: center;
+  padding: 10;
+  color: white;
+  animation: test 4s;
+  position: relative;
 }
 .child {
-
-width: 24%;
-    height: 40vh;
-    text-align: justify;
-    box-shadow: 5px 10px;
-
+  width: 24%;
+  height: 40vh;
+  text-align: justify;
+  box-shadow: 5px 10px;
 }
-.child-1{
-    border: 3px solid green;
-    background-color: white;
+.child-1 {
+  border: 3px solid green;
+  background-color: white;
+}
+.child-2 {
+  border: 3px solid yellow;
+  background-color: white;
+}
+.child-3 {
+  border: 3px solid red;
+  background-color: white;
+}
+.child-4 {
+  border: 3px solid blue;
+  background-color: white;
+}
+.child-5 {
+  border: 3px solid green;
+  background-color: white;
+}
+.child-6 {
+  border: 3px solid yellow;
+  background-color: white;
+}
+.child-7 {
+  border: 3px solid red;
+  background-color: white;
+}
+.child-8 {
+  border: 3px solid blue;
+  background-color: white;
+}
+
+.child-9 {
+  border: 3px solid green;
+  background-color: white;
+}
+.child-10 {
+  border: 3px solid yellow;
+  background-color: white;
+}
+.child-11 {
+  border: 3px solid red;
+  background-color: white;
+}
+.child-12 {
+  border: 3px solid blue;
+  background-color: white;
+}
+
+.image1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border: 3px solid black;
+  height: 100%;
+  align-items: center;
+  height: 75%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  outline-offset: 1rem;
+  
+}
+
+h2 {
+  font-size: small;
+  text-align: center;
+  color: black;
+}
+.image1:hover{
+  transform: scale(1.1);
+  outline: 1rem solid #222;
+}
+.container:hover .image1:not(:hover){
+  transform: scale(0.8);
+  opacity: 0.3;
+}
+@keyframes test{
+  0%{
+
+background-color: blue;
+  }
+  10%{
     
+    background-color: red;
+  
+  }
+  20%{
     
-    }
-    .child-2{
-    border: 3px solid yellow ;
-    background-color: white;
-
-    }
-    .child-3{
-    border: 3px solid red;
-background-color: white;
-    }
-    .child-4{
-     border: 3px solid blue ;   
-background-color: white;
-    }
-.child-5{
-    border: 3px solid green;
-  background-color: white;  
-    }
-    .child-6{
-    border: 3px solid yellow ;
-   background-color: white; 
-    }
-    .child-7{
-    border: 3px solid red;
-    background-color: white;
-    }
-    .child-8{
-     border: 3px solid blue ;  
-      background-color: white;
-    }
-
-    .child-9{
-        border: 3px solid green;
-        background-color: white;
-        
-        }
-        .child-10{
-        border: 3px solid yellow ;
-        background-color: white;
-        }
-        .child-11{
-        border: 3px solid red;
-        background-color: white;
-        }
-        .child-12{
-         border: 3px solid blue ; 
-         background-color: white;  
-        }
-
-.image1{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    border: 3px solid black;
-    height: 100%;
-    align-items: center;
-    height: 75%;
+    background-color: green;
+  }
+  30%{
     
+    background-color: yellow;
+  }
+  40%{
+    background-color: fuchsia;
+  }
 }
-@media screen and (max-width: 800px){
-    .image1{
-        width: 100%;
-    }
-}
-h2{
-    font-size: small;
-    text-align: center;
-    color: black;  
-}
-   
