@@ -28,6 +28,7 @@ h1 {
   color: white;
   animation: test 4s;
   position: relative;
+  transition: background-color 0.5s;
 }
 .child {
   width: 24%;
@@ -104,6 +105,7 @@ h2 {
   font-size: small;
   text-align: center;
   color: black;
+  transition: background-color 0.5s;
 }
 .image1:hover{
   transform: scale(1.1);
@@ -134,4 +136,10 @@ background-color: blue;
   40%{
     background-color: fuchsia;
   }
+}
+h2:hover {
+  background-color: gold;
+}
+h1:hover {
+  background-color: darkgoldenrod;
 }
